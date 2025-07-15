@@ -1,12 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mathura Real Estate</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathura Real Estate</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Mathura Real Estate</h1>
-  <p>This is your live HTML site for listing and selling property in Mathura, Vrindavan, and Govardhan.</p>
+    <header>
+        <h1>Mathura Real Estate</h1>
+        <p>मथुरा के प्रॉपर्टीखाने का कारवां</p>
+    </header>
+    <section class="hero">
+        <img src="house.jpg" alt="Modern House">
+        <div class="buttons">
+            <button>भूमि बेचें</button>
+            <button>भूमि खरीदें</button>
+        </div>
+    </section>
+    <section class="map">
+        <iframe src="https://maps.google.com/maps?q=Mathura&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"></iframe>
+    </section>
+    <section class="contact-form">
+        <h2>Contact</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="company" placeholder="Company">
+            <input type="text" name="address" placeholder="Address">
+            <input type="text" name="phone" placeholder="Contact No." required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
